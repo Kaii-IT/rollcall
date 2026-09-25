@@ -1,0 +1,18 @@
+name: rollcall
+description: Attendance tracking for university clubs — Login, Sign-Up and Home.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  # SF Pro can't be redistributed, so it is not bundled here. If you hold a
+  # licence, add the .otf files and declare the "SF Pro Text" and
+  # "SF Pro Display" families below; AppFonts already requests those names.
